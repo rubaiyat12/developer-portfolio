@@ -7,13 +7,14 @@ body{
 }
 section{
     display: flex;
+    
 }
 .half-width{
     width:50%;
     padding-left: 7%;
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -25,4 +26,19 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    margin-top: 120px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-half{
+    width:50%;
+
+}
+.dream-half img{
+    width:100%;
+
+    
 }
